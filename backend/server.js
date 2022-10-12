@@ -18,5 +18,5 @@ app.use("/api/goals",require("./routes/goalRoutes"));
 app.use("/api/users",require("./routes/userRoutes"));
 
 app.use(errorHandler)
-
+//hello its me
 app.listen(port,()=>{console.log(`server is running on port ${port}`)});
